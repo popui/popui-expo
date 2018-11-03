@@ -10,7 +10,7 @@
     "ios": "expo start --ios",
     "eject": "expo eject",
     "test": "node ./node_modules/jest/bin/jest.js --watchAll",
-    "prettier": "npx prettier --config .prettierrc --write \"components/**/*/*.ts\" \"components/**/*/*.tsx\" \"expo/**/*/*.js\" \"expo/**/*/*.jsx\" \"rn-kitchen-sink/**/*/*.js\" \"rn-kitchen-sink/**/*/*.jsx\""
+    "prettier": "npx prettier --config .prettierrc --write \"src/**/*/*.ts\" \"src/**/*/*.tsx\" \"src/**/*/*.js\" \"src/**/*/*.jsx\""
   },
   "husky": {
     "hooks": {
@@ -30,7 +30,10 @@
   },
   "devDependencies": {
     "babel-preset-expo": "^5.0.0",
+    "husky": "^1.1.3",
     "jest-expo": "^31.0.0",
+    "prettier": "^1.14.3",
+    "pretty-quick": "^1.8.0",
     "react-native-typescript-transformer": "^1.2.10",
     "typescript": "^3.1.6"
   }
