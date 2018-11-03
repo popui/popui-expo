@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+      "forceConsistentCasingInFileNames": true,
+      "importHelpers": true,
+      "lib": [
+        "es2017"
+      ],
+      "module": "es2015",
+      "noEmitHelpers": true,
+      "noImplicitReturns": true,
+      "sourceMap": true,
+      "strict": true,
+      "noEmitOnError":false,
+      "strictNullChecks": true,
+      "moduleResolution": "node",
+      "jsx": "react-native",
+      "noUnusedParameters": true,
+      "noUnusedLocals": true,
+      "experimentalDecorators":true,
+      "allowSyntheticDefaultImports":true,
+      "target": "ESNext",
+      "noImplicitAny": false,
+      "types": [
+        "react",
+        "react-native"
+      ],
+      "baseUrl": ".",
+      "paths": {
+      }
+    },
+    "exclude": [
+      "build",
+      "node_modules",
+      "lib",
+      "es",
+    ],
+    "compileOnSave": false
+  }
+  
