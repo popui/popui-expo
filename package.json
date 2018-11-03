@@ -1,13 +1,21 @@
 {
-  "name": "my-new-project",
+  "name": "expo-popui",
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
   "scripts": {
+    "expo": "EXPO_DEBUG=true DEBUG='Metro:*' REACT_DEBUGGER=\"unset ELECTRON_RUN_AS_NODE && open -g 'rndebugger://set-debugger-loc?host=127.0.0.1&port=19001'\" expo start --max-workers 12 --lan --dev --no-minify",
+    "expo-clean": "EXPO_DEBUG=true DEBUG='Metro:*' REACT_DEBUGGER=\"unset ELECTRON_RUN_AS_NODE && open -g 'rndebugger://set-debugger-loc?host=127.0.0.1&port=19001'\" expo start --max-workers 12 --lan --dev --no-minify -c",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "eject": "expo eject",
-    "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+    "test": "node ./node_modules/jest/bin/jest.js --watchAll",
+    "prettier": "npx prettier --config .prettierrc --write \"components/**/*/*.ts\" \"components/**/*/*.tsx\" \"expo/**/*/*.js\" \"expo/**/*/*.jsx\" \"rn-kitchen-sink/**/*/*.js\" \"rn-kitchen-sink/**/*/*.jsx\""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   },
   "jest": {
     "preset": "jest-expo"
@@ -17,7 +25,8 @@
     "expo": "^31.0.2",
     "react": "16.5.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz",
-    "react-navigation": "^2.18.2"
+    "react-navigation": "^2.18.2",
+    "tslib": "^1.9.3"
   },
   "devDependencies": {
     "babel-preset-expo": "^5.0.0",

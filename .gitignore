@@ -5,3 +5,6 @@ npm-debug.*
 *.p12
 *.key
 *.mobileprovision
+src/demo/**/*/*.js
+src/demo/**/*/*.jsx
+popui-rn/
