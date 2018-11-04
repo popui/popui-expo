@@ -17,17 +17,13 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
-    "packagerOpts":{
-      "sourceExts": [
-        "ts",
-        "tsx"
-      ],
+    "packagerOpts": {
+      "assetExts": ["ttf", "mp4"],
+      "sourceExts": ["ts", "tsx"],
       "transformer": "node_modules/react-native-typescript-transformer/index.js"
     }
   }
