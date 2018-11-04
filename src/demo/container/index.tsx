@@ -4,6 +4,7 @@ import { StyleSheet, Text } from 'react-native'
 // import { ActionSheet2 } from "@popui/popui-rn"
 // import AllComp from '@popui/popui-rn/rn-kitchen-sink/allComponents'
 import ResourceLoader from '../common/ResourceLoader'
+import { Button } from '@popui/popui-rn'
 
 export default class App extends React.Component {
   render() {
@@ -12,6 +13,7 @@ export default class App extends React.Component {
         {/* <SafeAreaView style={styles.container}> */}
         {/* <AllComp /> */}
         <Text>test</Text>
+        <Button>Button</Button>
         {/* </SafeAreaView> */}
       </ResourceLoader>
     )

@@ -3,8 +3,8 @@
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
   "scripts": {
-    "expo": "EXPO_DEBUG=true DEBUG='Metro:*' REACT_DEBUGGER=\"unset ELECTRON_RUN_AS_NODE && open -g 'rndebugger://set-debugger-loc?host=127.0.0.1&port=19001'\" expo start --max-workers 12 --lan --dev --no-minify",
-    "expo-clean": "EXPO_DEBUG=true DEBUG='Metro:*' REACT_DEBUGGER=\"unset ELECTRON_RUN_AS_NODE && open -g 'rndebugger://set-debugger-loc?host=127.0.0.1&port=19001'\" expo start --max-workers 12 --lan --dev --no-minify -c",
+    "expo": "EXPO_DEBUG=true REACT_DEBUGGER=\"unset ELECTRON_RUN_AS_NODE && open -g 'rndebugger://set-debugger-loc?host=127.0.0.1&port=19001'\" expo start --max-workers 12 --lan --dev --no-minify",
+    "expo-clean": "EXPO_DEBUG=true REACT_DEBUGGER=\"unset ELECTRON_RUN_AS_NODE && open -g 'rndebugger://set-debugger-loc?host=127.0.0.1&port=19001'\" expo start --max-workers 12 --lan --dev --no-minify -c",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
@@ -29,6 +29,7 @@
     "tslib": "^1.9.3"
   },
   "devDependencies": {
+    "babel-plugin-import": "^1.11.0",
     "babel-preset-expo": "^5.0.0",
     "husky": "^1.1.3",
     "jest-expo": "^31.0.0",
