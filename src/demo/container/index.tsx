@@ -6,6 +6,9 @@ import AllComp from '@popui/popui-rn/rn-kitchen-sink/allComponents'
 import ResourceLoader from '../common/ResourceLoader'
 
 export default class App extends React.Component {
+  static navigationOptions = {
+    header: null,
+  }
   render() {
     return (
       <ResourceLoader>

@@ -6,13 +6,15 @@ import {
 } from 'react-navigation'
 
 import TabBarIcon from '../components/TabBarIcon'
-import HomeScreen from '../screens/HomeScreen'
+// import HomeScreen from '../screens/HomeScreen'
+// import HomeScreen from '../demo/container'
 import LinksScreen from '../screens/LinksScreen'
 import SettingsScreen from '../screens/SettingsScreen'
+import HomeStack from '@popui/popui-rn/rn-kitchen-sink/allComponents'
 
-const HomeStack = createStackNavigator({
-  Home: HomeScreen,
-})
+// const HomeStack = createStackNavigator({
+//   Home: HomeScreen,
+// })
 
 HomeStack.navigationOptions = {
   tabBarLabel: 'Home',
