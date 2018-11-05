@@ -9,9 +9,9 @@ export default class App extends React.Component {
   render() {
     return (
       <ResourceLoader>
-        <SafeAreaView style={styles.container}>
-          <AllComp />
-        </SafeAreaView>
+        {/* <SafeAreaView style={styles.container}> */}
+        <AllComp />
+        {/* </SafeAreaView> */}
       </ResourceLoader>
     )
   }
