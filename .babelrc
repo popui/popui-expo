@@ -11,6 +11,28 @@
           }
         ]
       ]
+    },
+    "production": {
+      "plugins": [
+        [
+          "import",
+          {
+            "libraryName": "@popui/popui-rn",
+            "libraryDirectory": "components"
+          }
+        ]
+      ]
+    },
+    "test": {
+      "plugins": [
+        [
+          "import",
+          {
+            "libraryName": "@popui/popui-rn",
+            "libraryDirectory": "components"
+          }
+        ]
+      ]
     }
   }
 }
