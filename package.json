@@ -27,7 +27,6 @@
     "array-tree-filter": "~2.1.0",
     "babel-runtime": "6.x",
     "expo": "^31.0.4",
-    "husky": "^1.1.2",
     "normalize-css-color": "^1.0.2",
     "rc-swipeout": "~2.0.0",
     "react": "16.5.0",
@@ -48,6 +47,7 @@
     "schedule": "^0.4.0"
   },
   "devDependencies": {
+    "husky": "^1.1.2",
     "antd-mobile-demo-data": "^0.2.0",
     "tslib": "^1.9.3",
     "@types/prop-types": "^15.5.6",
