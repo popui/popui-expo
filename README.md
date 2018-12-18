@@ -13,7 +13,9 @@ RN UI 库。
 
 [https://expo.io/@popui/popui](https://expo.io/@popui/popui)
 
-请先安装 [expo app](https://expo.io/tools), 再扫描上述页面的二维码.
+![https://expo.io/@popui/popui](./github/images/qrcode_expo_popui.png 'https://expo.io/@popui/popui')
+
+请先安装 [expo app](https://expo.io/tools), 用 Expo 扫描上面的二维码.
 
 # 源码
 

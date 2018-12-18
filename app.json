@@ -24,6 +24,7 @@
       "assetExts": ["ttf", "mp4"],
       "sourceExts": ["ts", "tsx"],
       "transformer": "node_modules/react-native-typescript-transformer/index.js"
-    }
+    },
+    "githubUrl": "https://github.com/popui/popui-rn"
   }
 }
